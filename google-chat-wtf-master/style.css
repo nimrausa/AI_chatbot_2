@@ -1,0 +1,173 @@
+html, body {
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(249, 247, 247);
+
+    /* font-family: Ubuntu, "times new roman", times, roman, serif; */
+}
+/* @font-face {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    /* src: url(http://example.com/fonts/ubuntu.woff) format('woff'); */
+
+
+
+    
+
+ textarea {
+    font-family: 'Georgia';
+}
+
+#message-input {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888888;
+    vertical-align: top;
+}
+
+#chat-messages {
+    height: calc( 100% - 200px );
+    overflow: auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.chat-message {
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+
+.incoming-message {
+    color: #fff;
+    background-color: #4a4e5a;
+}
+
+.outgoing-message {
+    color: #fff;
+    background-color: #494949;
+}
+
+#message-input {
+    margin: 20px auto;
+    resize: none;
+    border: none;
+    color: #1c1c1c;
+    background-color: #fbf7f7;
+    outline: none;
+    padding: 15px;
+    font-size: 1.1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 700px;
+}
+
+h1 {
+    color: #08721c; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.0em
+    padding 20px;
+}
+p {
+    color: #0e0d0d;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.0em;
+}
+.name {
+    color: #029387;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+
+code {
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin: 5px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 3px dotted #FFF;
+    border-style: solid solid dotted dotted;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px dotted #0d7b03;
+    border-style: solid solid dotted;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    animation: rotationBack 1s linear infinite;
+    transform-origin: center center;
+  }
+      
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  @keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }   
+ 
+
+
+ 
+#cursor {
+    width: 5px;
+    height: 20px;
+    background-color: #f9f3f3;
+    display: inline-block;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+a {
+    color: #f1f0f0;
+}
+
+
